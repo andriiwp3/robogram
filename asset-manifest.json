@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/andriiwp3/robogram/static/css/main.a2693202.chunk.css",
+    "main.js": "/andriiwp3/robogram/static/js/main.592075f8.chunk.js",
+    "main.js.map": "/andriiwp3/robogram/static/js/main.592075f8.chunk.js.map",
+    "runtime-main.js": "/andriiwp3/robogram/static/js/runtime-main.a526b860.js",
+    "runtime-main.js.map": "/andriiwp3/robogram/static/js/runtime-main.a526b860.js.map",
+    "static/js/2.9b0f80a0.chunk.js": "/andriiwp3/robogram/static/js/2.9b0f80a0.chunk.js",
+    "static/js/2.9b0f80a0.chunk.js.map": "/andriiwp3/robogram/static/js/2.9b0f80a0.chunk.js.map",
+    "index.html": "/andriiwp3/robogram/index.html",
+    "static/css/main.a2693202.chunk.css.map": "/andriiwp3/robogram/static/css/main.a2693202.chunk.css.map",
+    "static/js/2.9b0f80a0.chunk.js.LICENSE.txt": "/andriiwp3/robogram/static/js/2.9b0f80a0.chunk.js.LICENSE.txt",
+    "static/media/Profile.module.css": "/andriiwp3/robogram/static/media/youtubePlug.5213846a.svg",
+    "static/media/logo.d3712641.svg": "/andriiwp3/robogram/static/media/logo.d3712641.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a526b860.js",
+    "static/js/2.9b0f80a0.chunk.js",
+    "static/css/main.a2693202.chunk.css",
+    "static/js/main.592075f8.chunk.js"
+  ]
+}

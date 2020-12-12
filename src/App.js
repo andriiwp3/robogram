@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom'
+import classes from './App.module.css'
+import HeaderConnect from './components/Header/HeaderConnect'
+import LoginConnect from './components/Login/LoginConnect'
+import ProfileConnect from './components/Profile/ProfileConnect'
+import UsersConnect from './components/Users/UsersConnect'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+   return (
+      <div className={classes.wrapper}>
+         <HeaderConnect />
+
+         <div className={classes.container + ' container'}>
+            <Switch>
+               <Route exact path="/">
+                  <UsersConnect />
+               </Route>
+               <Route path="/profile/:userId?">
+                  <ProfileConnect />
+               </Route>
+               <Route path="/login">
+                  <LoginConnect />
+               </Route>
+               <Route path="*">404</Route>
+            </Switch>
+         </div>
+      </div>
+   )
 }
 
-export default App;
+export default App

@@ -1,0 +1,43 @@
+.form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.input {
+   width: 100%;
+   padding: 9px 15px;
+	margin: 0px 0px 10px 0px;
+	outline: none;
+	transition: all .3s ease;
+}
+.input:focus {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.input.error {
+   border: 2px solid #ff5252;
+}
+.rememberMe {
+	display: flex;
+	align-items: center;
+	margin: 0px 0px 20px 0px;
+}
+.checkbox {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.errorBlock {
+   margin: 0px 0px 20px 0px;
+   color: #ff5252;
+   font-weight: 500;
+}
+.button {
+   padding: 10px 0;
+   background-color: #f4f4f4;
+   border: 0;
+   border-radius: 3px;
+}
+.button:disabled {
+	opacity: 0.4;
+}

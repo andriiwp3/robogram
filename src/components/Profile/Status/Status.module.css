@@ -1,0 +1,38 @@
+.Status {
+}
+.Status form {
+	max-width: 300px;
+}
+.input {
+	width: 100%;
+	padding: 8px;
+	outline: none;
+	text-align: center;
+	border-radius: 4px;
+	border-width: 1px;
+	opacity: 0.8;
+}
+.input.error {
+	border-color: #ff5252;
+}
+.errorBlock {
+	text-align: center;
+	color: #ff5252;
+	margin: 10px 0px 0px 0px;
+}
+.button {
+	display: block;
+	border: 1px solid #212121;
+	background: transparent;
+	text-transform: uppercase;
+	color: #212121;
+	font-weight: 700;
+	margin: 10px auto 0;
+	width: 100%;
+	padding: 6px 0;
+	border-radius: 4px;
+	opacity: .6;
+}
+.button:disabled {
+	display: none;
+}

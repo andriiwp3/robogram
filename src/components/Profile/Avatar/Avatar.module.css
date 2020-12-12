@@ -1,0 +1,11 @@
+.Avatar {
+	width: 100%;
+}
+.img {
+	width: 100%;
+}
+.img img {
+	border-radius: 50%;
+	object-fit: cover;
+	max-width: 100%;
+}

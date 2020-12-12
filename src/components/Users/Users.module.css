@@ -1,0 +1,53 @@
+.Users {
+}
+.Loader {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.header {
+   display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.title {
+   margin: 0;
+   padding-right: 20px;
+   font-size: 32px;
+	font-family: 'Graphik', sans-serif;
+	font-weight: 700;
+}
+.body {
+
+}
+.usersList {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: stretch;
+   justify-content: space-between;
+}
+.userCard {
+   margin: 0 0 20px 0;
+   width: calc(33.3333% - 15px);
+}
+.button {
+	display: block;
+	margin: 20px auto 0;
+	font-family: 'Graphik', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	border: 0;
+	background-color: transparent;
+	color: #ff5252;
+}
+@media (max-width: 767.98px) {
+	.userCard {
+		width: calc(50% - 10px);
+	}
+}
+
+@media (max-width: 499.98px) {
+	.userCard {
+		width: 100%;
+	}
+}
